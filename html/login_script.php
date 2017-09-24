@@ -8,29 +8,38 @@ $username = "root";
 $password = "root";
 $database = "vitpay";
 
+$uname = $_POST['uname'];
+$passwd = $_POST['passwd'];
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
-echo "Connected successfully";
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-$sql = "SELECT * FROM User;";
+$sql = "SELECT Password FROM UserLogin WHERE UserId = '" . $uname . "'";
 $result = $conn->query($sql);
-echo "<br>";
-
-if ($result->num_rows > 0) {
+if ($result->num_rows == 1)
+{
     // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "FirstName: " . $row["FirstName"]. " - LastName: " . $row["LastName"] . "<br>";
-    }
-} else {
-    echo "0 results";
+	$row = $result->fetch_assoc();
+	if ($row['Password'] == $passwd)
+	{
+		echo "Hello " . $uname . " Logged in<br/>";
+	}
+	else
+	{
+		echo "Incorrect Password Bitch<br/>";
+	}
+} 
+else
+{
+	echo "Username not found<br/>";
 }
 
 
 $conn->close();
-?>		
+?>
 </body>
 </html>

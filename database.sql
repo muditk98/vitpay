@@ -35,8 +35,8 @@ CREATE TABLE Due (
 	DueDate date NOT NULL,
 	StartDate date NOT NULL,
 	PRIMARY KEY(Id),
-	FOREIGN KEY (Debtor) REFERENCES User(RegId),
-	FOREIGN KEY (PurposeId) REFERENCES Purpose(Id)
+	FOREIGN KEY (Debtor) REFERENCES User(RegId) ON DELETE CASCADE,
+	FOREIGN KEY (PurposeId) REFERENCES Purpose(Id) ON DELETE CASCADE
 );
 
 CREATE TABLE Transaction (
@@ -47,8 +47,24 @@ CREATE TABLE Transaction (
 	TransactionDate date NOT NULL,
 	PurposeId int UNSIGNED,
 	PRIMARY KEY(Id),
-	FOREIGN KEY (Payer) REFERENCES User(RegId),
-	FOREIGN KEY (Receiver) REFERENCES Merchant(Id),
-	FOREIGN KEY (PurposeId) REFERENCES Purpose(Id)	
+	FOREIGN KEY (Payer) REFERENCES User(RegId) ON DELETE CASCADE,
+	FOREIGN KEY (Receiver) REFERENCES Merchant(Id) ON DELETE CASCADE,
+	FOREIGN KEY (PurposeId) REFERENCES Purpose(Id) ON DELETE CASCADE	
+);
+
+CREATE TABLE UserLogin (
+	UserId varchar(9),
+	Password varchar(32),
+	PRIMARY KEY (UserId),
+	FOREIGN KEY (UserId) REFERENCES User(RegId) ON DELETE CASCADE
+);
+
+truncate TABLE User;
+
+CREATE TABLE MerchantLogin (
+	UserId int,
+	Password varchar(32),
+	PRIMARY KEY (UserId),
+	FOREIGN KEY (UserId) REFERENCES Merchant(Id) ON DELETE CASCADE
 );
 
