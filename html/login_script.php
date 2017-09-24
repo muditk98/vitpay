@@ -18,7 +18,7 @@ $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-$sql = "SELECT Password FROM UserLogin WHERE UserId = '" . $uname . "'";
+$sql = "SELECT Password FROM UserLogin WHERE UserId = '$uname'";
 $result = $conn->query($sql);
 if ($result->num_rows == 1)
 {
@@ -26,11 +26,11 @@ if ($result->num_rows == 1)
 	$row = $result->fetch_assoc();
 	if ($row['Password'] == $passwd)
 	{
-		echo "Hello " . $uname . " Logged in<br/>";
+		echo "Hello $uname Logged in<br/>";
 	}
 	else
 	{
-		echo "Incorrect Password Bitch<br/>";
+		echo "Incorrect Password<br/>";
 	}
 } 
 else
