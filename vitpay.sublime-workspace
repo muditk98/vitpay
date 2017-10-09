@@ -1,0 +1,995 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"se",
+				"session_destroy"
+			],
+			[
+				"sess",
+				"session_unset"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"Pu",
+				"Purpose"
+			],
+			[
+				"new",
+				"newmerchbal"
+			],
+			[
+				"POST",
+				"_POST"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"User",
+				"UserLogin\t(vitpay Table)"
+			],
+			[
+				"user",
+				"UserLogin\t(vitpay Table)"
+			],
+			[
+				"Id",
+				"Id\t(Merchant Col)"
+			],
+			[
+				"RE",
+				"RegId\t(User Col)"
+			],
+			[
+				"link",
+				"link3"
+			],
+			[
+				"l",
+				"link2"
+			],
+			[
+				"lin",
+				"link1"
+			],
+			[
+				"for",
+				"forin\tfor … in … done"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"cur",
+				"cur\tcursor: ${pointer};"
+			],
+			[
+				"texti",
+				"text-align"
+			],
+			[
+				"sho",
+				"box-shadow"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"p",
+				"PRIMARY"
+			],
+			[
+				"get",
+				"getWeight"
+			],
+			[
+				"whie",
+				"white"
+			],
+			[
+				"work",
+				"workspace10"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/payment.php",
+			"settings":
+			{
+				"buffer_size": 1313,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/homepage.php",
+			"settings":
+			{
+				"buffer_size": 1127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/homepage.css",
+			"settings":
+			{
+				"buffer_size": 4102,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database.sql",
+			"settings":
+			{
+				"buffer_size": 2672,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/topbar.php",
+			"settings":
+			{
+				"buffer_size": 660,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/login_script.php",
+			"settings":
+			{
+				"buffer_size": 738,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/loginpage.php",
+			"settings":
+			{
+				"buffer_size": 732,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/vitpay.php",
+			"settings":
+			{
+				"buffer_size": 131,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/wallet.php",
+			"settings":
+			{
+				"buffer_size": 500,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/session.php",
+			"settings":
+			{
+				"buffer_size": 400,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/transaction.php",
+			"settings":
+			{
+				"buffer_size": 1350,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "rein",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"he",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SSSQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"connec",
+				"ST: Select Connection"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"theme",
+				"Material Theme: Activate theme"
+			],
+			[
+				"ss: ver",
+				"Set Syntax: SystemVerilog"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"verilo",
+				"Set Syntax: Verilog"
+			],
+			[
+				"ss ver",
+				"Set Syntax: SystemVerilog"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"confi",
+				"Material Theme: Configuration"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 639.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html"
+	],
+	"file_history":
+	[
+		"/var/www/html/pay.php",
+		"/var/www/html/logout.php",
+		"/var/www/html/login_script.php",
+		"/var/www/html/loginpage.php",
+		"/var/www/html/loginpage.css",
+		"/var/www/html/homepage.css",
+		"/var/www/html/wallet.php",
+		"/var/www/html/homepage.php",
+		"/home/mudit-i3/Documents/vitpay/database.sql",
+		"/var/www/html/topbar.php",
+		"/var/www/html/transaction.php",
+		"/var/www/html/payment.php",
+		"/var/www/html/loginpage.html",
+		"/home/mudit-i3/Documents/vitpay/html/login_script.php",
+		"/home/mudit-i3/Documents/vitpay/html/homepage.php",
+		"/home/mudit-i3/Documents/vitpay/html/loginpage.html",
+		"/home/mudit-i3/Documents/vitpay/README.md",
+		"/home/mudit-i3/Documents/vitpay/html/loginpage.sublime-workspace",
+		"/home/mudit-i3/Documents/test/dscript.sh",
+		"/home/mudit-i3/Documents/test/dscript.py",
+		"/home/mudit-i3/Documents/test/untitled",
+		"/home/mudit-i3/Documents/Programs/untitled.py",
+		"/home/mudit-i3/Documents/vitpay/loginpage.html",
+		"/home/mudit-i3/Documents/vitpay/login_script.php",
+		"/home/mudit-i3/.config/i3/config",
+		"/home/mudit-i3/Documents/Programs/mult4x3.sv",
+		"/home/mudit-i3/.config/i3/i3lock-fancy/lock",
+		"/home/mudit-i3/.config/i3/volcont.sh",
+		"/home/mudit-i3/Documents/Programs/prim.py",
+		"/home/mudit-i3/.config/i3/i3lock-fancy/README.md",
+		"/home/mudit-i3/Documents/untitled2.py",
+		"/home/mudit-i3/Documents/untitled.py",
+		"/media/DataD/Work/Programs/prioq.cpp",
+		"/home/mudit-i3/.config/cava/config",
+		"/home/mudit-i3/.config/i3/i3blocks.conf",
+		"/home/mudit-i3/.config/cava/cava",
+		"/home/mudit-i3/.config/i3/brightness.sh",
+		"/home/mudit-i3/Documents/volcont.py",
+		"/home/mudit-i3/Documents/i3lock-color/lock.sh",
+		"/home/mudit-i3/.zshrc",
+		"/home/mudit-i3/Documents/cavarun.sh",
+		"/home/mudit-i3/.config/i3/rofi.sh",
+		"/home/mudit-i3/.config/i3/lock",
+		"/home/mudit-i3/.config/i3/lock.sh",
+		"/home/mudit-i3/.config/i3/toggletouchpad.sh"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Bhojwani",
+			"Devashish",
+			"16BLC1090",
+			"Bhojwani",
+			"0",
+			"td",
+			"d",
+			"row",
+			"auto",
+			"2",
+			"Purpose",
+			"Transaction",
+			"result",
+			"16BLC1090",
+			"Fees",
+			"Events",
+			"    text-align: center;\n",
+			"date",
+			"Vmart",
+			"newuserbal",
+			"User",
+			"uname",
+			"RegId",
+			"uname",
+			"disabled",
+			"text",
+			"amount",
+			"200px",
+			"iconimg",
+			"class",
+			"svg",
+			"png",
+			"vmart",
+			"Pay",
+			"svg",
+			"Pay",
+			"546E7A",
+			"img",
+			"dues",
+			"pay",
+			"icon",
+			"id",
+			"#",
+			".",
+			"class",
+			"topbarlink",
+			"class=\"topbarlink\"",
+			"li",
+			"li a",
+			"href",
+			"white",
+			"pink",
+			"f",
+			"auto",
+			"80",
+			"href",
+			"Fees",
+			"Pay",
+			"block",
+			"about",
+			"href",
+			"Password",
+			"condition",
+			"Password",
+			"userlogin",
+			"uname",
+			"asdfasdfasdfasdfasdfasdf",
+			"7550173217",
+			"755017321",
+			"ON DELETE CASCADE",
+			"RegId",
+			"User",
+			"varchar",
+			"UserId"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ON DELETE CASCADE ON UPDATE CASCADE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/payment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/homepage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/homepage.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3146,
+								3146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "database.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/topbar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/login_script.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/html/loginpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/html/vitpay.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/html/wallet.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/html/session.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/html/transaction.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLTools Result":
+	{
+		"height": 315.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vitpay.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/vitpay/vitpay.sublime-project"
+			],
+			[
+				"new",
+				"~/Documents/vitpay/database.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

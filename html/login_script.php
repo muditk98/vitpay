@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<head>
-</head>
-<body>
-<?php
+<?php 
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -11,12 +8,10 @@ $database = "vitpay";
 $uname = $_POST['uname'];
 $passwd = $_POST['passwd'];
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 
-// Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+	die("Connection failed: " . $conn->connect_error);
 } 
 $sql = "SELECT Password FROM UserLogin WHERE UserId = '$uname'";
 $result = $conn->query($sql);
@@ -26,20 +21,17 @@ if ($result->num_rows == 1)
 	$row = $result->fetch_assoc();
 	if ($row['Password'] == $passwd)
 	{
-		echo "Hello $uname Logged in<br/>";
+		$_SESSION['uname'] = $uname;
 	}
 	else
 	{
-		echo "Incorrect Password<br/>";
+		$_SESSION['error'] = "Invalid Password";
 	}
 } 
 else
 {
-	echo "Username not found<br/>";
+	$_SESSION['error'] = "Invalid Username";
 }
-
-
 $conn->close();
+header('Location: vitpay.php');
 ?>
-</body>
-</html>

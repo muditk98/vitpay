@@ -27,9 +27,11 @@ CREATE TABLE Purpose (
 	PRIMARY KEY(Id)
 );
 
+INSERT INTO Purpose VALUES(1, 'Personal', 'Personal');
+
 CREATE TABLE Due (
 	Id int UNSIGNED AUTO_INCREMENT,
-	Debtor varchar(9),
+	Debtor varchar(9),	
 	Amount int UNSIGNED NOT NULL,
 	PurposeId int UNSIGNED,
 	DueDate date NOT NULL,
@@ -44,8 +46,8 @@ CREATE TABLE Transaction (
 	Payer varchar(9),
 	Receiver int UNSIGNED,
 	Amount int UNSIGNED NOT NULL,
-	TransactionDate date NOT NULL,
-	PurposeId int UNSIGNED,
+	TransactionTime timestamp NOT NULL,
+	PurposeId int UNSIGNED DEFAULT 1,
 	PRIMARY KEY(Id),
 	FOREIGN KEY (Payer) REFERENCES User(RegId) ON DELETE CASCADE ON UPDATE CASCADE,
 	FOREIGN KEY (Receiver) REFERENCES Merchant(Id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -66,5 +68,17 @@ CREATE TABLE MerchantLogin (
 );
 
 INSERT INTO User VALUES('Devashish', 'Bhojwani', '16BLC1090', '1998-11-29', '7550173217', 'male', 120000);
-
 INSERT INTO UserLogin VALUES('16BLC1090', 'asdfasdf');
+
+INSERT INTO User VALUES('Mudit', 'Kapoor', '16BLC1100', '1998-09-04', '7550170480', 'male', 120000);
+INSERT INTO UserLogin VALUES('16BLC1100', 'asdfasdf');
+
+INSERT INTO User VALUES('Avinash', 'Singh', '16BLC1089', '1997-09-28', '7550170480', 'male', 120000);
+INSERT INTO UserLogin VALUES('16BLC1089', 'asdfasdf');
+
+
+INSERT INTO Merchant VALUES(1, 'VIT', 20000);
+INSERT INTO Merchant VALUES(2, 'Vmart', 20000);
+INSERT INTO Merchant VALUES(3, 'Gazebo', 20000);
+INSERT INTO Merchant VALUES(4, 'NightMess', 20000);
+

@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"link",
+				"link3"
+			],
+			[
+				"l",
+				"link2"
+			],
+			[
+				"lin",
+				"link1"
+			],
+			[
+				"for",
+				"forin\tfor … in … done"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"cur",
+				"cur\tcursor: ${pointer};"
+			],
+			[
+				"texti",
+				"text-align"
+			],
+			[
+				"sho",
+				"box-shadow"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Pu",
+				"PurposeId"
+			],
+			[
+				"p",
+				"PRIMARY"
+			],
+			[
+				"get",
+				"getWeight"
+			],
+			[
+				"whie",
+				"white"
+			],
+			[
+				"work",
+				"workspace10"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 128.0,
+		"last_filter": "python",
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SSSQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"connec",
+				"ST: Select Connection"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"theme",
+				"Material Theme: Activate theme"
+			],
+			[
+				"ss: ver",
+				"Set Syntax: SystemVerilog"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"verilo",
+				"Set Syntax: Verilog"
+			],
+			[
+				"ss ver",
+				"Set Syntax: SystemVerilog"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ss shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"confi",
+				"Material Theme: Configuration"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mudit-i3/Documents/test/dscript.sh",
+		"/home/mudit-i3/Documents/test/dscript.py",
+		"/home/mudit-i3/Documents/test/untitled",
+		"/home/mudit-i3/Documents/vitpay/database.sql",
+		"/home/mudit-i3/Documents/vitpay/html/login_script.php",
+		"/home/mudit-i3/Documents/vitpay/html/loginpage.html",
+		"/home/mudit-i3/Documents/Programs/untitled.py",
+		"/home/mudit-i3/Documents/vitpay/loginpage.html",
+		"/home/mudit-i3/Documents/vitpay/login_script.php",
+		"/home/mudit-i3/.config/i3/config",
+		"/home/mudit-i3/Documents/Programs/mult4x3.sv",
+		"/home/mudit-i3/.config/i3/i3lock-fancy/lock",
+		"/home/mudit-i3/.config/i3/volcont.sh",
+		"/home/mudit-i3/Documents/Programs/prim.py",
+		"/home/mudit-i3/.config/i3/i3lock-fancy/README.md",
+		"/home/mudit-i3/Documents/untitled2.py",
+		"/home/mudit-i3/Documents/untitled.py",
+		"/media/DataD/Work/Programs/prioq.cpp",
+		"/home/mudit-i3/.config/cava/config",
+		"/home/mudit-i3/.config/i3/i3blocks.conf",
+		"/home/mudit-i3/.config/cava/cava",
+		"/home/mudit-i3/.config/i3/brightness.sh",
+		"/home/mudit-i3/Documents/volcont.py",
+		"/home/mudit-i3/Documents/i3lock-color/lock.sh",
+		"/home/mudit-i3/.zshrc",
+		"/home/mudit-i3/Documents/cavarun.sh",
+		"/home/mudit-i3/.config/i3/rofi.sh",
+		"/home/mudit-i3/.config/i3/lock",
+		"/home/mudit-i3/.config/i3/lock.sh",
+		"/home/mudit-i3/.config/i3/toggletouchpad.sh"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "loginpage.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/vitpay/database.sublime-workspace"
+			],
+			[
+				"new",
+				"~/Documents/vitpay/database.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
