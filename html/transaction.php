@@ -38,6 +38,10 @@
 					echo "</tr>";
 				}
 			}
+			else
+			{
+				echo "<tr><td>You have no previous transactions</td></tr>";
+			}
 			$conn->close();
 		 ?>
 	</table>

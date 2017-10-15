@@ -1,8 +1,5 @@
 <?php 
 	session_start();
-	if (!isset($_SESSION['uname'])) {
-		header('Location: vitpay.php');
-	}
 	function Connect()
 	{
 		$servername = "localhost";
@@ -15,4 +12,21 @@
 		} 
 		return $conn;
 	}
+	if (!isset($_SESSION['uname'])) {
+		header('Location: vitpay.php');
+	}
+	if ( !isset($_SESSION['UserFullName']) ) {
+		$conn = Connect();
+		$uname = $_SESSION['uname'];
+		$sql = "SELECT * FROM User WHERE Id = '$uname'";
+		$result = $conn->query($sql);
+		if ($result->num_rows == 1)
+		{
+			$row = $result->fetch_assoc();
+			// echo $row['FirstName'] . " " . $row['LastName'];
+			$_SESSION['UserFullName'] = $row['FirstName'] . " " . $row['LastName'];
+		}
+		$conn->close();
+	}
+
  ?>
