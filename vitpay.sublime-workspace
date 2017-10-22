@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"cu",
+				"currentSlideNumber"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"tra",
+				"translateY()"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"grid",
+				"grid-column-gap"
+			],
+			[
+				"grid-au",
+				"grid-auto-rows"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"_SE",
+				"_SESSION"
+			],
+			[
+				"_",
+				"_SERVER"
+			],
+			[
 				"User",
 				"UserFullName"
 			],
@@ -28,10 +116,6 @@
 				"session_unset"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"ba",
 				"background-color"
 			],
@@ -54,10 +138,6 @@
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"head",
-				"header"
 			],
 			[
 				"session",
@@ -98,10 +178,6 @@
 			[
 				"fon",
 				"font-size"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"cur",
@@ -152,10 +228,19 @@
 	"buffers":
 	[
 		{
-			"file": "database.sql",
+			"file": "/var/www/html/home.php",
 			"settings":
 			{
-				"buffer_size": 2672,
+				"buffer_size": 1646,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/topbar.php",
+			"settings":
+			{
+				"buffer_size": 773,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -164,42 +249,61 @@
 			"file": "database2.sql",
 			"settings":
 			{
-				"buffer_size": 2852,
+				"buffer_size": 2882,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/css/login.css",
+			"settings":
+			{
+				"buffer_size": 2138,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/login_script.php",
+			"file": "/var/www/html/loginpage.php",
 			"settings":
 			{
-				"buffer_size": 822,
+				"buffer_size": 1662,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/session.php",
+			"file": "/var/www/html/vitpay.php",
 			"settings":
 			{
-				"buffer_size": 804,
+				"buffer_size": 127,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/payment.php",
+			"file": "/var/www/html/css/stylepax.css",
 			"settings":
 			{
-				"buffer_size": 1313,
+				"buffer_size": 2496,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/test.php",
+			"file": "/var/www/html/js/main.js",
 			"settings":
 			{
-				"buffer_size": 179,
+				"buffer_size": 2238,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "// ------------- VARIABLES ------------- //"
+			}
+		},
+		{
+			"file": "/var/www/html/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2677,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -212,10 +316,86 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 170.0,
-		"last_filter": "php",
+		"height": 354.0,
+		"last_filter": "js",
 		"selected_items":
 		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"set syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set sy",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"random",
+				"Random:Letters"
+			],
+			[
+				"random em",
+				"Random:E-mail"
+			],
+			[
+				"rand",
+				"Random:Date"
+			],
+			[
+				"email",
+				"Random:E-mail"
+			],
+			[
+				"random mai",
+				"Random:E-mail"
+			],
+			[
+				"random int",
+				"Random:First Name"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"random da",
+				"Random:Date"
+			],
+			[
+				"settings",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"php",
 				"Set Syntax: PHP"
@@ -229,16 +409,8 @@
 				"Set Syntax: Shell Script (Bash)"
 			],
 			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"he",
 				"HTML: Encode Special Characters"
-			],
-			[
-				"tabs",
-				"Indentation: Convert to Tabs"
 			],
 			[
 				"css",
@@ -265,19 +437,7 @@
 				"Indentation: Convert to Tabs"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"install ",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -287,10 +447,6 @@
 			[
 				"connec",
 				"ST: Select Connection"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"sssq",
@@ -381,22 +537,32 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html"
+		"/var/www/html",
+		"/var/www/html/css",
+		"/var/www/html/images",
+		"/var/www/html/js"
 	],
 	"file_history":
 	[
-		"/var/www/html/test.php",
-		"/var/www/html/transaction.php",
+		"/var/www/html/loginpage.php",
+		"/var/www/html/css/login.css",
+		"/var/www/html/home.php",
 		"/var/www/html/topbar.php",
+		"/var/www/html/css/style.css",
+		"/home/mudit-i3/Downloads/acme/css/style.css",
+		"/home/mudit-i3/Documents/vitpay/database2.sql",
+		"/var/www/html/homepage.css",
+		"/home/mudit-i3/Documents/vitpay/database.sql",
+		"/var/www/html/homepage.php",
+		"/var/www/html/test.php",
 		"/var/www/html/session.php",
+		"/home/mudit-i3/.config/sublime-text-3/Packages/Random Everything/Random.sublime-settings",
+		"/var/www/html/login_script.php",
+		"/home/mudit-i3/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/var/www/html/transaction.php",
 		"/var/www/html/wallet.php",
 		"/var/www/html/vitpay.php",
-		"/var/www/html/login_script.php",
-		"/var/www/html/loginpage.php",
-		"/var/www/html/homepage.css",
-		"/var/www/html/homepage.php",
 		"/var/www/html/payment.php",
-		"/home/mudit-i3/Documents/vitpay/database.sql",
 		"/var/www/html/index.php",
 		"/var/www/html/index_bak.html",
 		"/home/mudit-i3/.config/i3/config",
@@ -438,7 +604,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -452,6 +618,69 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"index",
+			"2",
+			"index",
+			"child",
+			"color",
+			"argument",
+			"favicon",
+			"total",
+			"visible",
+			"p",
+			"_",
+			"stylesheet",
+			"auto",
+			"hidden",
+			"  ",
+			"argument",
+			"300",
+			"home",
+			"width",
+			"607D8B",
+			"263238",
+			"button",
+			"userdrop",
+			"right",
+			"font-famil",
+			"em",
+			"black",
+			"left",
+			"bottom",
+			"black, rgba(0, 0, 0, 0)",
+			"00ACC1",
+			"black",
+			"white",
+			"0288D1",
+			"FDD835",
+			"C0CA33",
+			"EEFF41",
+			"B388FF",
+			"5C6BC0",
+			"AB47BC",
+			"6A1B9A",
+			"F50057",
+			"D1C4E9",
+			"EF6C00",
+			"E65100",
+			"FFF176",
+			"4DB6AC",
+			"64FFDA",
+			"03A9F4",
+			"00B8D4",
+			"B388FF",
+			"B39DDB",
+			"white",
+			"none",
+			"((.*\\n)*)",
+			"((.*\\n))",
+			"(.*\\n)",
+			"stannum",
+			"1995",
+			"1999",
+			"1995",
+			"1999",
+			"error",
 			"_POST",
 			" =",
 			"Merchant",
@@ -516,24 +745,7 @@
 			"auto",
 			"80",
 			"href",
-			"Fees",
-			"Pay",
-			"block",
-			"about",
-			"href",
-			"Password",
-			"condition",
-			"Password",
-			"userlogin",
-			"uname",
-			"asdfasdfasdfasdfasdfasdf",
-			"7550173217",
-			"755017321",
-			"ON DELETE CASCADE",
-			"RegId",
-			"User",
-			"varchar",
-			"UserId"
+			"Fees"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -541,6 +753,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"    ",
+			"\\t",
 			"ON DELETE CASCADE ON UPDATE CASCADE"
 		],
 		"reverse": false,
@@ -552,111 +766,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "database.sql",
+					"file": "/var/www/html/home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2672,
+						"buffer_size": 1646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								561,
-								561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "database2.sql",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2829,
-								2829
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/login_script.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								600
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/session.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 804,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
+								27,
+								27
 							]
 						],
 						"settings":
@@ -672,20 +799,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/var/www/html/payment.php",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "/var/www/html/topbar.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1313,
+						"buffer_size": 773,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								524,
-								524
+								200,
+								200
 							]
 						],
 						"settings":
@@ -694,27 +821,114 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/var/www/html/test.php",
+					"buffer": 2,
+					"file": "database2.sql",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 179,
+						"buffer_size": 2882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/css/login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/loginpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								1093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/vitpay.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
 							]
 						],
 						"settings":
@@ -725,7 +939,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/html/css/stylepax.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1166,
+								1166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/html/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2238,
+								2238
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// ------------- VARIABLES ------------- //",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/html/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 783.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -774,7 +1077,7 @@
 	"project": "vitpay.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -820,7 +1123,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 173.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
