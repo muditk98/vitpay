@@ -1,4 +1,5 @@
 <?php include 'session.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
 	<div class="container">
 		<section class="background">
 			<div class="content-wrapper">
-				<a href="#">
+				<a href="pay.php">
 					<p class="content-title">Pay</p>
 					<p class="content-subtitle">Make fast and secure transactions</p>
 				</a>
@@ -23,7 +24,7 @@
 		</section>
 		<section class="background">
 			<div class="content-wrapper">
-				<a href="#">				
+				<a href="event.php">				
 					<p class="content-title">Events</p>
 					<p class="content-subtitle">Quickly register for any event</p>
 				</a>
@@ -39,7 +40,7 @@
 		</section>
 		<section class="background">
 			<div class="content-wrapper">
-				<a href="#">					
+				<a href="passbook.php">					
 					<p class="content-title">Passbook</p>
 					<p class="content-subtitle">Check your balance and transaction history</p>
 				</a>

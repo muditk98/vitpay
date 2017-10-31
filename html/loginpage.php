@@ -16,7 +16,7 @@
 
 		$uname = $conn->real_escape_string($_POST['uname']);
 		$passwd = $conn->real_escape_string($_POST['passwd']);
-
+		$uname = strtoupper($uname);
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		} 

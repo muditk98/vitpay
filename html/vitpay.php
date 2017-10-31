@@ -5,7 +5,6 @@
 	}
 	else
 	{
-		echo $_SESSION['uname'];
 		include 'home.php';
 	}
  ?>

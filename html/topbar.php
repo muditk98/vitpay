@@ -11,10 +11,10 @@
 					<a href="vitpay.php">Home</a>
 				</li>
 				<li <?php if($_SERVER["PHP_SELF"] == "/about.php") echo 'class="current"'; ?>>
-					<a href="about.php">About</a>
+					<a href="about.php" target="_blank">About</a>
 				</li>
 				<li <?php if($_SERVER["PHP_SELF"] == "/contact.php") echo 'class="current"'; ?>>
-					<a href="contact.php">Contact Us</a>
+					<a href="contact.php" target="_blank">Contact Us</a>
 				</li>
 			</ul>
 		</nav>

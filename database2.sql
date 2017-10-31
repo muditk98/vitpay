@@ -69,6 +69,8 @@ CREATE TABLE Transaction (
 	FOREIGN KEY (PurposeId) REFERENCES Purpose(Id) ON DELETE CASCADE ON UPDATE CASCADE	
 );
 
+-- INSERT INTO Transaction VALUES(1, '16BLC1100', 'CRCL13', 500, now(), 11);
+
 CREATE TABLE UserLogin (
 	Id varchar(9),
 	hash varchar(255),
@@ -92,3 +94,16 @@ CREATE TABLE UserLogin (
 -- INSERT INTO Merchant VALUES(3, 'Gazebo', 20000);
 -- INSERT INTO Merchant VALUES(4, 'NightMess', 20000);
 
+
+
+-- INSERT INTO Fees VALUES (14,100);
+-- INSERT INTO Fees VALUES (15,200);
+-- INSERT INTO Fees VALUES (16,300);
+-- INSERT INTO Fees VALUES (17,150);
+-- INSERT INTO Fees VALUES (18,600);
+
+-- INSERT INTO Purpose VALUES (14, 'Hackathon','EVENT');
+-- INSERT INTO Purpose VALUES (15, 'Startup Hunt','EVENT');
+-- INSERT INTO Purpose VALUES (16, 'Sherlock Ohms','EVENT');
+-- INSERT INTO Purpose VALUES (17, 'Harry Potter Quiz','EVENT');
+-- INSERT INTO Purpose VALUES (18, 'Quantum Networks','EVENT');
