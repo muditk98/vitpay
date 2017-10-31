@@ -9,16 +9,22 @@
 	<link rel="stylesheet" href="css/styledue.css">
 	<script>
 		function validateNewPass() {
+			document.getElementById('phperrmsg').innerHTML = '';
 			var newpass = document.getElementById('newpass').value;
 			var conpass = document.getElementById('conpass').value;
+			var oldpass = document.getElementById('oldpass').value;
 			var err = document.getElementById('message');
-			if( newpass == conpass && newpass.length >= 8)
+			if( newpass == conpass && newpass.length >= 8 && newpass != oldpass)
 			{
 				return true;
 			}
 			else if( newpass != conpass )
 			{
 				err.innerHTML = 'Passwords do not match';
+			}
+			else if(newpass == oldpass)
+			{
+				err.innerHTML = 'New and old passwords are same';
 			}
 			else
 			{
@@ -57,11 +63,13 @@
 					?>
 				</table>
 				<form action="changepassword.php" method="post" onsubmit="return validateNewPass()">
-					<input type="password" name="oldpass" placeholder="Enter old password" autocomplete="off" required />
+					<input type="password" name="oldpass" id="oldpass" placeholder="Enter old password" autocomplete="off" required />
 					<input type="password" name="newpass" id="newpass" placeholder="Enter new password" autocomplete="off" required />
 					<input type="password" id="conpass" placeholder="Confirm password" autocomplete="off" required />
 					<input type="submit" name="passbtn" id="passbtn" value="Change Password" />
-					<?php echo $_SESSION['msg']; $_SESSION['msg'] = ''; ?>
+					<div id="phperrmsg">
+						<?php echo $_SESSION['msg']; $_SESSION['msg'] = ''; ?>
+					</div>
 					<span class="highlight" id="message"></span>
 				</form>
 			</div>
